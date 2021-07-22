@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.svg-animation-container{
+    text-align: center;
+    width: 100vw;
+    
+}
+
+.svg-animation-container svg{
+
+}
+
+#left-ball path{
+    animation: left-dot 1s ease-out infinite alternate;
+}
+
+
+@keyframes left-dot {
+    0%{
+        transform: translateY(-50px) ;
+        /* fill: red; */
+    }
+    100%{
+        transform: translateY(0px);
+        /* fill: green; */
+    }   
+}
+
+#middle-ball path{
+    animation: middle-dot 1s ease-out .5s infinite alternate;
+}
+
+
+@keyframes middle-dot {
+    0%{
+        transform: translateY(-50px) ;
+        /* fill: red; */
+    }
+    100%{
+        transform: translateY(0px);
+        /* fill: green; */
+    }   
+}
+
+#right-ball path{
+    animation: right-dot 1s ease-out 1s infinite alternate;
+}
+
+
+@keyframes right-dot {
+    0%{
+        transform: translateY(-50px) ;
+        /* fill: red; */
+    }
+    100%{
+        transform: translateY(0px);
+        /* fill: green; */
+    }   
+}
+
+#letters path:hover{
+   fill: url('#gradient-fill');
+   
+}
+    
