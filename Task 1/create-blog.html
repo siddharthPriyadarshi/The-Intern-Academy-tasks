@@ -2,10 +2,12 @@
 <html lang="en">
 
 <head>
+    
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create your blog</title>
+    <title>Dashboard</title>
     <!-- linking document style.css -->
     <link href="style.css" rel="stylesheet">
 
@@ -14,20 +16,213 @@
 </head>
 
 <body>
+    <input type="checkbox" id = "check" >
+
     <header>
+        <label for="check">
+            <span class="iconify" id ="sidebar__btn" data-icon="codicon:three-bars" data-inline="false"></span>
+        </label>
         <nav>
             <div class="logo">
                 <span class="iconify" data-icon="ic:baseline-auto-stories" data-inline="false"></span>
                 <p>myBlog</p>
             </div>
-            <div class="cta">
-                CREATE YOUR BLOG
+            <div class="cta logout__btn">
+                Logout
             </div>
         </nav>
     </header>
-    <main>
-        
-    </main>
+
+    <!-- sidebar -->
+    <div class="sidebar">
+        <div class ="sidebar--profile">
+            <span class="iconify profile__image" data-icon="et:profile-male" data-inline="false"></span>
+            <h4>Alexandra</h4>
+        </div>
+        <div class="sidebar--list">
+
+            <a href ="#"><span class="iconify" data-icon="bx:bx-desktop" data-inline="false"></span><span class ="sidebar--list__text">Dashboard</span></a>
+            <a href ="#"><span class="iconify" data-icon="el:cogs" data-inline="false"></span><span class ="sidebar--list__text">Trending</span></a>
+            <a href ="#"><span class="iconify" data-icon="codicon:table" data-inline="false"></span><span class ="sidebar--list__text">Create Blog</span></a>
+
+            <a href ="#"><span class="iconify" data-icon="codicon:table" data-inline="false"></span><span class ="sidebar--list__text">Blogs List</span></a>
+
+            <a href ="#"><span class="iconify" data-icon="codicon:table" data-inline="false"></span><span class ="sidebar--list__text">Settings</span></a>
+
+            <a href ="#"><span class="iconify" data-icon="codicon:table" data-inline="false"></span><span class ="sidebar--list__text">Support</span></a>
+            <a href ="#"><span class="iconify" data-icon="codicon:table" data-inline="false"></span><span class ="sidebar--list__text">About</span></a>
+        </div>
+    </div>
+
+    <div class="content">
+        <!-- Dashboard Page -->
+        <div id="dashboard">
+            <p id ="dashboard--heading"> Hello admin !</p>
+            <div id ="dashboard--menu">
+                <a href="#">View Website</a>
+                <a href="#">Dashboard</a>
+
+            </div>
+            <div id ="dashboard--welcome">
+                <span class="iconify" data-icon="zondicons:announcement" data-inline="false"></span>
+                <span id = "dashboard--welcome__text">
+
+                    Welcome to your admin Dashboard
+                </span>
+            </div>
+
+            <div id ="dashboard--cards--container">
+                
+                <div class="dashboard--cards">
+                    <div class="cards--content">
+                        <span class="iconify icon" data-icon="raphael:feed" data-inline="false"></span>
+                        <span class = "cards--nos">
+                            7
+                        </span>
+                    </div>
+                    <div class = "cards--name">
+                        Blogs
+                    </div>
+                    <div class="cards--view" >
+                        <span>
+                            View
+                        </span>
+                        <span class="iconify subicon" data-icon="carbon:next-filled" data-inline="false"></span>
+                    </div>
+                </div>
+
+                <div class="dashboard--cards">
+                    <div class="cards--content">
+                        <span class="iconify icon" data-icon="raphael:feed" data-inline="false"></span>
+                        <span class = "cards--nos">
+                            7
+                        </span>
+                    </div>
+                    <div class = "cards--name">
+                        Blogs
+                    </div>
+                    <div class="cards--view" >
+                        <span>
+                            View
+                        </span>
+                        <span class="iconify subicon" data-icon="carbon:next-filled" data-inline="false"></span>
+                    </div>
+                </div>
+
+                <div class="dashboard--cards">
+                    <div class="cards--content">
+                        <span class="iconify icon" data-icon="raphael:feed" data-inline="false"></span>
+                        <span class = "cards--nos">
+                            7
+                        </span>
+                    </div>
+                    <div class = "cards--name">
+                        Blogs
+                    </div>
+                    <div class="cards--view" >
+                        <span>
+                            View
+                        </span>
+                        <span class="iconify subicon" data-icon="carbon:next-filled" data-inline="false"></span>
+                    </div>
+                </div>
+
+                <div class="dashboard--cards">
+                    <div class="cards--content">
+                        <span class="iconify icon" data-icon="raphael:feed" data-inline="false"></span>
+                        <span class = "cards--nos">
+                            7
+                        </span>
+                    </div>
+                    <div class = "cards--name">
+                        Blogs
+                    </div>
+                    <div class="cards--view" >
+                        <span>
+                            View
+                        </span>
+                        <span class="iconify subicon" data-icon="carbon:next-filled" data-inline="false"></span>
+                    </div>
+                </div>
+
+                <div class="dashboard--cards">
+                    <div class="cards--content">
+                        <span class="iconify icon" data-icon="raphael:feed" data-inline="false"></span>
+                        <span class = "cards--nos">
+                            7
+                        </span>
+                    </div>
+                    <div class = "cards--name">
+                        Blogs
+                    </div>
+                    <div class="cards--view" >
+                        <span>
+                            View
+                        </span>
+                        <span class="iconify subicon" data-icon="carbon:next-filled" data-inline="false"></span>
+                    </div>
+                </div>
+
+                <div class="dashboard--cards">
+                    <div class="cards--content">
+                        <span class="iconify icon" data-icon="raphael:feed" data-inline="false"></span>
+                        <span class = "cards--nos">
+                            7
+                        </span>
+                    </div>
+                    <div class = "cards--name">
+                        Blogs
+                    </div>
+                    <div class="cards--view" >
+                        <span>
+                            View
+                        </span>
+                        <span class="iconify subicon" data-icon="carbon:next-filled" data-inline="false"></span>
+                    </div>
+                </div>
+
+                <div class="dashboard--cards">
+                    <div class="cards--content">
+                        <span class="iconify icon" data-icon="raphael:feed" data-inline="false"></span>
+                        <span class = "cards--nos">
+                            7
+                        </span>
+                    </div>
+                    <div class = "cards--name">
+                        Blogs
+                    </div>
+                    <div class="cards--view" >
+                        <span>
+                            View
+                        </span>
+                        <span class="iconify subicon" data-icon="carbon:next-filled" data-inline="false"></span>
+                    </div>
+                </div>
+
+                <div class="dashboard--cards">
+                    <div class="cards--content">
+                        <span class="iconify icon" data-icon="raphael:feed" data-inline="false"></span>
+                        <span class = "cards--nos">
+                            7
+                        </span>
+                    </div>
+                    <div class = "cards--name">
+                        Blogs
+                    </div>
+                    <div class="cards--view" >
+                        <span>
+                            View
+                        </span>
+                        <span class="iconify subicon" data-icon="carbon:next-filled" data-inline="false"></span>
+                    </div>
+                </div>
+
+    
+            </div>
+        </div>
+
+    </div>
+    
 </body>
 
 </html>
