@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,11 +16,11 @@
 </head>
 
 <body>
-    <input type="checkbox" id = "check" >
+    <input type="checkbox" id="check">
 
     <header>
         <label for="check">
-            <span class="iconify" id ="sidebar__btn" data-icon="codicon:three-bars" data-inline="false"></span>
+            <span class="iconify" id="sidebar__btn" data-icon="codicon:three-bars" data-inline="false"></span>
         </label>
         <nav>
             <div class="logo">
@@ -33,57 +33,64 @@
         </nav>
     </header>
 
-    <!-- sidebar -->
+    <!-- sidebar starts-->
     <div class="sidebar">
-        <div class ="sidebar--profile">
+        <div class="sidebar--profile">
             <span class="iconify profile__image" data-icon="et:profile-male" data-inline="false"></span>
             <h4>Alexandra</h4>
         </div>
         <div class="sidebar--list">
 
-            <a href ="#"><span class="iconify" data-icon="bx:bx-desktop" data-inline="false"></span><span class ="sidebar--list__text">Dashboard</span></a>
-            <a href ="#"><span class="iconify" data-icon="el:cogs" data-inline="false"></span><span class ="sidebar--list__text">Trending</span></a>
-            <a href ="#"><span class="iconify" data-icon="codicon:table" data-inline="false"></span><span class ="sidebar--list__text">Create Blog</span></a>
+            <a href="#"><span class="iconify" data-icon="bx:bx-desktop" data-inline="false"></span><span
+                    class="sidebar--list__text">Dashboard</span></a>
+            <a href="#"><span class="iconify" data-icon="el:cogs" data-inline="false"></span><span
+                    class="sidebar--list__text">Trending</span></a>
+            <a href="#"><span class="iconify" data-icon="codicon:table" data-inline="false"></span><span
+                    class="sidebar--list__text">Create Blog</span></a>
 
-            <a href ="#"><span class="iconify" data-icon="codicon:table" data-inline="false"></span><span class ="sidebar--list__text">Blogs List</span></a>
+            <a href="#"><span class="iconify" data-icon="codicon:table" data-inline="false"></span><span
+                    class="sidebar--list__text">Blogs List</span></a>
 
-            <a href ="#"><span class="iconify" data-icon="codicon:table" data-inline="false"></span><span class ="sidebar--list__text">Settings</span></a>
+            <a href="#"><span class="iconify" data-icon="codicon:table" data-inline="false"></span><span
+                    class="sidebar--list__text">Settings</span></a>
 
-            <a href ="#"><span class="iconify" data-icon="codicon:table" data-inline="false"></span><span class ="sidebar--list__text">Support</span></a>
-            <a href ="#"><span class="iconify" data-icon="codicon:table" data-inline="false"></span><span class ="sidebar--list__text">About</span></a>
+            <a href="#"><span class="iconify" data-icon="codicon:table" data-inline="false"></span><span
+                    class="sidebar--list__text">Support</span></a>
+            <a href="#"><span class="iconify" data-icon="codicon:table" data-inline="false"></span><span
+                    class="sidebar--list__text">About</span></a>
         </div>
     </div>
+    <!-- sidebar ends -->
 
+    <!-- main content start -->
     <div class="content">
         <!-- Dashboard Page -->
         <div id="dashboard">
-            <p id ="dashboard--heading"> Hello admin !</p>
-            <div id ="dashboard--menu">
+            <p id="dashboard--heading"> Hello admin !</p>
+            <div id="dashboard--menu">
                 <a href="#">View Website</a>
                 <a href="#">Dashboard</a>
 
             </div>
-            <div id ="dashboard--welcome">
+            <div id="dashboard--welcome">
                 <span class="iconify" data-icon="zondicons:announcement" data-inline="false"></span>
-                <span id = "dashboard--welcome__text">
-
-                    Welcome to your admin Dashboard
+                <span>
+                    Welcome to your Admin Dashboard !!!
                 </span>
             </div>
 
-            <div id ="dashboard--cards--container">
-                
-                <div class="dashboard--cards">
+            <div id="dashboard--cards--container">
+                <div class="dashboard--cards cards__bg__light-blue">
                     <div class="cards--content">
                         <span class="iconify icon" data-icon="raphael:feed" data-inline="false"></span>
-                        <span class = "cards--nos">
+                        <span class="cards--nos">
                             7
                         </span>
                     </div>
-                    <div class = "cards--name">
+                    <div class="cards--name">
                         Blogs
                     </div>
-                    <div class="cards--view" >
+                    <div class="cards--view">
                         <span>
                             View
                         </span>
@@ -91,17 +98,17 @@
                     </div>
                 </div>
 
-                <div class="dashboard--cards">
+                <div class="dashboard--cards cards__bg__light-bs">
                     <div class="cards--content">
-                        <span class="iconify icon" data-icon="raphael:feed" data-inline="false"></span>
-                        <span class = "cards--nos">
+                        <span class="iconify icon" data-icon="bi:tags-fill" data-inline="false"></span>
+                        <span class="cards--nos">
                             7
                         </span>
                     </div>
-                    <div class = "cards--name">
-                        Blogs
+                    <div class="cards--name">
+                        Categories
                     </div>
-                    <div class="cards--view" >
+                    <div class="cards--view">
                         <span>
                             View
                         </span>
@@ -109,17 +116,17 @@
                     </div>
                 </div>
 
-                <div class="dashboard--cards">
+                <div class="dashboard--cards cards__bg__light-green">
                     <div class="cards--content">
-                        <span class="iconify icon" data-icon="raphael:feed" data-inline="false"></span>
-                        <span class = "cards--nos">
-                            7
+                        <span class="iconify icon" data-icon="typcn-tick" data-inline="false"></span>
+                        <span class="cards--nos">
+                            2
                         </span>
                     </div>
-                    <div class = "cards--name">
-                        Blogs
+                    <div class="cards--name">
+                        Published
                     </div>
-                    <div class="cards--view" >
+                    <div class="cards--view">
                         <span>
                             View
                         </span>
@@ -127,17 +134,17 @@
                     </div>
                 </div>
 
-                <div class="dashboard--cards">
+                <div class="dashboard--cards cards__bg__light-red">
                     <div class="cards--content">
-                        <span class="iconify icon" data-icon="raphael:feed" data-inline="false"></span>
-                        <span class = "cards--nos">
-                            7
+                        <span class="iconify icon" data-icon="fluent-drafts-24-filled" data-inline="false"></span>
+                        <span class="cards--nos">
+                            3
                         </span>
                     </div>
-                    <div class = "cards--name">
-                        Blogs
+                    <div class="cards--name">
+                        Drafts
                     </div>
-                    <div class="cards--view" >
+                    <div class="cards--view">
                         <span>
                             View
                         </span>
@@ -145,17 +152,17 @@
                     </div>
                 </div>
 
-                <div class="dashboard--cards">
+                <div class="dashboard--cards cards__bg__light-bs">
                     <div class="cards--content">
-                        <span class="iconify icon" data-icon="raphael:feed" data-inline="false"></span>
-                        <span class = "cards--nos">
-                            7
+                        <span class="iconify icon" data-icon="ls-pc" data-inline="false"></span>
+                        <span class="cards--nos">
+                            1
                         </span>
                     </div>
-                    <div class = "cards--name">
-                        Blogs
+                    <div class="cards--name">
+                        Web Details
                     </div>
-                    <div class="cards--view" >
+                    <div class="cards--view">
                         <span>
                             View
                         </span>
@@ -163,17 +170,18 @@
                     </div>
                 </div>
 
-                <div class="dashboard--cards">
+                <div class="dashboard--cards cards__bg__light-red">
                     <div class="cards--content">
-                        <span class="iconify icon" data-icon="raphael:feed" data-inline="false"></span>
-                        <span class = "cards--nos">
-                            7
+                        <span class="iconify icon" data-icon="entypo:link" data-inline="false"
+                            data-rotate="90deg"></span>
+                        <span class="cards--nos">
+                            2
                         </span>
                     </div>
-                    <div class = "cards--name">
-                        Blogs
+                    <div class="cards--name">
+                        Links
                     </div>
-                    <div class="cards--view" >
+                    <div class="cards--view">
                         <span>
                             View
                         </span>
@@ -181,17 +189,17 @@
                     </div>
                 </div>
 
-                <div class="dashboard--cards">
+                <div class="dashboard--cards cards__bg__light-blue">
                     <div class="cards--content">
-                        <span class="iconify icon" data-icon="raphael:feed" data-inline="false"></span>
-                        <span class = "cards--nos">
-                            7
+                        <span class="iconify icon" data-icon="fa-solid:trophy" data-inline="false"></span>
+                        <span class="cards--nos">
+                            1
                         </span>
                     </div>
-                    <div class = "cards--name">
-                        Blogs
+                    <div class="cards--name">
+                        Editor's Choice
                     </div>
-                    <div class="cards--view" >
+                    <div class="cards--view">
                         <span>
                             View
                         </span>
@@ -199,30 +207,161 @@
                     </div>
                 </div>
 
-                <div class="dashboard--cards">
+                <div class="dashboard--cards cards__bg__light-green">
                     <div class="cards--content">
-                        <span class="iconify icon" data-icon="raphael:feed" data-inline="false"></span>
-                        <span class = "cards--nos">
-                            7
+                        <span class="iconify icon" data-icon="gridicons-stats" data-inline="false"></span>
+                        <span class="cards--nos">
+                            44
                         </span>
                     </div>
-                    <div class = "cards--name">
-                        Blogs
+                    <div class="cards--name">
+                        Admin Stats
                     </div>
-                    <div class="cards--view" >
+                    <div class="cards--view">
                         <span>
                             View
                         </span>
                         <span class="iconify subicon" data-icon="carbon:next-filled" data-inline="false"></span>
                     </div>
                 </div>
+            </div>
+            <p id="dashboard--footer">
+                Blog Admin 2021 | Brought to you by <span style="color:rgb(27, 176, 230)">Siddharth Priyadarshi</span>
+            </p>
+        </div>
+        <!-- dashboard page ends -->
 
-    
+        <!-- Blogs Published Page -->
+        <div id="blogs--published">
+            <div class="blogs">
+                <div class="blog--header">
+                    <h3 class="blog--heading">BLOG HEADING</h3>
+                    <p class="blog--subheading">25th Aug 2021</p>
+                </div>
+                <figure>
+                    <img src="/Images/Blogs_Cover-photos/pic2.jpg" alt="Blog image">
+                </figure>
+                <p class="blogs--desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, nemo molestias! Eaque quo veniam,
+                    veritatis a vero quidem, cumque eveniet sapiente, accusamus magnam ea. Quaerat illum rem earum minus
+                    incidunt enim molestias esse iusto quae magni. Consequuntur deserunt eaque dolorem maiores in
+                    similique? Illo deserunt eius nobis beatae cumque sapiente nostrum repellat amet id possimus sint
+                    ratione fuga architecto saepe aspernatur a adipisci, mollitia deleniti iusto ullam, quas unde sequi
+                    obcaecati ipsam. Quae facere dolore sunt cum earum ex impedit incidunt officiis praesentium rem enim
+                    minus inventore iusto, voluptates a! Fugiat, repudiandae id! Veniam dignissimos ratione labore.
+                    Perferendis unde dignissimos impedit laudantium! Corporis dolorum fugiat, aliquam repellat maxime
+                    consequuntur. Dolorem, deleniti beatae. Inventore ipsa voluptatem vel accusamus blanditiis id! Unde
+                    quaerat natus omnis sed labore repudiandae dicta! Perferendis, expedita repellendus delectus ipsum
+                    numquam eius? Consectetur modi explicabo voluptates earum omnis laborum provident nesciunt dolorem
+                    rem nemo! Fuga magni autem quaerat quas quis voluptatum alias voluptas ut accusantium repudiandae
+                    corporis nemo at nam rem tempore suscipit, reiciendis, blanditiis similique ab. Beatae et recusandae
+                    maxime temporibus pariatur vel inventore! Dolores enim quod ad blanditiis molestiae ea ut sunt porro
+                    sequi dicta saepe eaque in, possimus debitis delectus libero animi facilis placeat quae temporibus
+                    officia harum. Reprehenderit possimus dignissimos consequuntur voluptatibus tempora facere nobis
+                    impedit repellat sunt nemo, assumenda deleniti, illum quam! Possimus quibusdam incidunt magni modi,
+                    non autem, atque voluptates labore expedita, porro reiciendis libero deleniti ex asperiores.
+                    Architecto dolore hic saepe distinctio quo expedita, debitis doloribus! Harum voluptatum cupiditate
+                    voluptatibus non voluptas, officiis soluta iure, vitae quasi ducimus magnam, delectus modi quidem
+                    rerum culpa ab ad nemo. Ducimus odit beatae temporibus cum dolorum ut quasi officia sequi eius
+                    repellendus modi perspiciatis porro molestias voluptatum obcaecati tempore architecto, inventore
+                    veniam impedit alias praesentium iusto. Recusandae rerum quo maiores, repudiandae in dolor
+                    consequuntur consequatur quas accusamus hic, consectetur ratione, labore totam. Ad sint impedit
+                    voluptatibus iusto autem architecto aperiam est magnam sed fugiat? Est nemo, omnis magni, libero
+                    labore earum, quas ab soluta neque non amet! Aut facilis, suscipit itaque soluta vitae nemo rem
+                    quaerat adipisci, explicabo dolore doloribus mollitia at reprehenderit natus excepturi earum
+                    voluptas a autem ullam pariatur exercitationem ipsa aliquid tenetur porro? Itaque mollitia molestias
+                    reprehenderit quod officia delectus assumenda inventore eius, natus qui aut voluptas enim suscipit
+                    aperiam totam eos. Expedita nostrum blanditiis modi iure? Culpa delectus pariatur natus distinctio.
+                    Enim quae vitae aliquam nesciunt, quasi obcaecati molestias aut!
+                </p>
+                <div class="blogs--footer">
+                    <button id="like__btn">
+                        <span class="iconify" data-icon="ei:like" data-inline="false"></span>
+                        <span id="like--btnText">
+                            Like
+                        </span>
+                    </button>
+                    <button class="blog--comment__btn"><span class="iconify" data-icon="ei:comment"
+                            data-inline="false"></span>Comments</button>
+                </div>
+
+                <!-- the reply section starts -->
+                <div class="reply--section">
+                    <div class="replies" id="reply1">
+                        <span class="iconify" data-icon="whh:profile" data-inline="false"></span>
+                        <div class="reply--context">
+                            <p class="replies--heading reply--user"> Rahul Kumar
+                            </p>
+                            <p>
+                                This is very interesting blog to learn about lorem. Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- reply section ends -->
+
+                <!-- type your comment -->
+                <div class="blogs--comment">
+                    <span class="iconify" data-icon="whh:profile" data-inline="false"></span>
+                    <textarea minlength="1" placeholder="Comment as Anonymous" class="blogs--textarea"></textarea>
+
+                    <button class="comment--btn">Comment</button>
+
+                </div>
+
             </div>
         </div>
-
     </div>
-    
+
+    <script>
+        const likeBtn = document.getElementById("like__btn");
+        const btnText = document.getElementById("like--btnText");
+        const commentBtn = document.querySelector(".comment--btn");
+        const reply = document.querySelector(".replies");
+        const replySection = document.querySelector(".reply--section");
+
+        // like btn toggler
+        likeBtn.addEventListener('click', () => {
+            if (likeBtn.classList == "liked") {
+                likeBtn.classList.remove("liked");
+                btnText.innerText = "Like";
+                likeBtn.style.color = "black";
+            } else {
+                likeBtn.classList.add("liked");
+                btnText.innerText = "Liked";
+                likeBtn.style.color = "#ccc";
+            }
+        })
+
+
+
+
+        // comment section
+        commentBtn.addEventListener('click', () => {
+            let textArea = document.querySelector(".blogs--textarea");
+            let text = textArea.value;
+            if (text.length >= 1) {
+                var cln = reply.cloneNode(true);
+                cln.lastElementChild.lastElementChild.innerText = text;
+                cln.lastElementChild.firstElementChild.innerText = "Annonymous";
+                const replySection = document.querySelector(".reply--section");
+                replySection.appendChild(cln);
+                displayHandler();
+
+            }
+            textArea.value = "";
+        });
+
+        const displayHandler = function () {
+            replySection.classList.toggle("reply__none");
+        }
+
+        // blog comment btn event handler
+        const cmtBtn = document.querySelector(".blog--comment__btn"); //Comment btn to display the replies
+
+        cmtBtn.addEventListener('click', displayHandler);
+    </script>
 </body>
 
 </html>
