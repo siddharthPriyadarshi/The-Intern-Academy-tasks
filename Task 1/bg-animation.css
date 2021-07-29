@@ -5,6 +5,7 @@
 }
 
 .svg-animation-container{
+    margin-top: 50px;
     text-align: center;
     width: 100vw;
     
@@ -21,12 +22,10 @@
 
 @keyframes left-dot {
     0%{
-        transform: translateY(-50px) ;
-        /* fill: red; */
+        transform: translateY(0px);
     }
     100%{
-        transform: translateY(0px);
-        /* fill: green; */
+        transform: translateY(-50px) ;
     }   
 }
 
@@ -37,12 +36,10 @@
 
 @keyframes middle-dot {
     0%{
-        transform: translateY(-50px) ;
-        /* fill: red; */
+        transform: translateY(0px);
     }
     100%{
-        transform: translateY(0px);
-        /* fill: green; */
+        transform: translateY(-50px) ;
     }   
 }
 
@@ -53,12 +50,10 @@
 
 @keyframes right-dot {
     0%{
-        transform: translateY(-50px) ;
-        /* fill: red; */
+        transform: translateY(0px);
     }
     100%{
-        transform: translateY(0px);
-        /* fill: green; */
+        transform: translateY(-50px) ;
     }   
 }
 

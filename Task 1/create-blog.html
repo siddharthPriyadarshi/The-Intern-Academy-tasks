@@ -8,6 +8,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+
+
+    <!--  google font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
     <!-- linking document style.css -->
     <link href="style.css" rel="stylesheet">
 
@@ -27,9 +34,9 @@
                 <span class="iconify" data-icon="ic:baseline-auto-stories" data-inline="false"></span>
                 <p>myBlog</p>
             </div>
-            <div class="cta logout__btn">
+            <a href = "index.html"><div class="cta logout__btn">
                 Logout
-            </div>
+            </div></a>
         </nav>
     </header>
 
@@ -43,20 +50,20 @@
 
             <a href="#"><span class="iconify" data-icon="bx:bx-desktop" data-inline="false"></span><span
                     class="sidebar--list__text">Dashboard</span></a>
-            <a href="#"><span class="iconify" data-icon="el:cogs" data-inline="false"></span><span
-                    class="sidebar--list__text">Trending</span></a>
-            <a href="#"><span class="iconify" data-icon="codicon:table" data-inline="false"></span><span
+            <a href="#"><span class="iconify" data-icon="raphael:feed" data-inline="false"></span><span
+                    class="sidebar--list__text">Your Blogs</span></a>
+            <a href="#"><span class="iconify" data-icon="icons8-create-new" data-inline="false"></span><span
                     class="sidebar--list__text">Create Blog</span></a>
 
-            <a href="#"><span class="iconify" data-icon="codicon:table" data-inline="false"></span><span
-                    class="sidebar--list__text">Blogs List</span></a>
+            <a href="#"><span class="iconify" data-icon="bi:tags-fill" data-inline="false"></span><span
+                    class="sidebar--list__text">Categories</span></a>
 
-            <a href="#"><span class="iconify" data-icon="codicon:table" data-inline="false"></span><span
-                    class="sidebar--list__text">Settings</span></a>
+            <a href="#"><span class="iconify" data-icon="mdi-web" data-inline="false"></span><span
+                    class="sidebar--list__text">Web Details</span></a>
 
-            <a href="#"><span class="iconify" data-icon="codicon:table" data-inline="false"></span><span
+            <a href="#"><span class="iconify" data-icon="ic-baseline-contact-support" data-inline="false"></span><span
                     class="sidebar--list__text">Support</span></a>
-            <a href="#"><span class="iconify" data-icon="codicon:table" data-inline="false"></span><span
+            <a href="#"><span class="iconify" data-icon="flat-color-icons:about" data-inline="false"></span><span
                     class="sidebar--list__text">About</span></a>
         </div>
     </div>
@@ -82,7 +89,7 @@
             <div id="dashboard--cards--container">
                 <div class="dashboard--cards cards__bg__light-blue">
                     <div class="cards--content">
-                        <span class="iconify icon" data-icon="raphael:feed" data-inline="false"></span>
+                        <span class="iconify icon" data-icon="raphael:feed" data-inline="false" style = "color: #32708f"></span>
                         <span class="cards--nos">
                             7
                         </span>
@@ -100,7 +107,7 @@
 
                 <div class="dashboard--cards cards__bg__light-bs">
                     <div class="cards--content">
-                        <span class="iconify icon" data-icon="bi:tags-fill" data-inline="false"></span>
+                        <span class="iconify icon" data-icon="bi:tags-fill" data-inline="false" style = "color: #8a6d3b"></span>
                         <span class="cards--nos">
                             7
                         </span>
@@ -118,7 +125,7 @@
 
                 <div class="dashboard--cards cards__bg__light-green">
                     <div class="cards--content">
-                        <span class="iconify icon" data-icon="typcn-tick" data-inline="false"></span>
+                        <span class="iconify icon" data-icon="typcn-tick" data-inline="false" style = "color:#3c763d"></span>
                         <span class="cards--nos">
                             2
                         </span>
@@ -130,13 +137,13 @@
                         <span>
                             View
                         </span>
-                        <span class="iconify subicon" data-icon="carbon:next-filled" data-inline="false"></span>
+                        <span class="iconify subicon" data-icon="carbon:next-filled" data-inline="false" ></span>
                     </div>
                 </div>
 
                 <div class="dashboard--cards cards__bg__light-red">
                     <div class="cards--content">
-                        <span class="iconify icon" data-icon="fluent-drafts-24-filled" data-inline="false"></span>
+                        <span class="iconify icon" data-icon="fluent-drafts-24-filled" data-inline="false" style = "color:#a94442"></span>
                         <span class="cards--nos">
                             3
                         </span>
@@ -148,13 +155,13 @@
                         <span>
                             View
                         </span>
-                        <span class="iconify subicon" data-icon="carbon:next-filled" data-inline="false"></span>
+                        <span class="iconify subicon" data-icon="carbon:next-filled" data-inline="false" ></span>
                     </div>
                 </div>
 
                 <div class="dashboard--cards cards__bg__light-bs">
                     <div class="cards--content">
-                        <span class="iconify icon" data-icon="ls-pc" data-inline="false"></span>
+                        <span class="iconify icon" data-icon="ls-pc" data-inline="false" style = "color: #8a6d3b"></span>
                         <span class="cards--nos">
                             1
                         </span>
@@ -166,14 +173,14 @@
                         <span>
                             View
                         </span>
-                        <span class="iconify subicon" data-icon="carbon:next-filled" data-inline="false"></span>
+                        <span class="iconify subicon" data-icon="carbon:next-filled" data-inline="false" ></span>
                     </div>
                 </div>
 
                 <div class="dashboard--cards cards__bg__light-red">
                     <div class="cards--content">
                         <span class="iconify icon" data-icon="entypo:link" data-inline="false"
-                            data-rotate="90deg"></span>
+                            data-rotate="90deg" style="color: #a94442"></span>
                         <span class="cards--nos">
                             2
                         </span>
@@ -191,7 +198,7 @@
 
                 <div class="dashboard--cards cards__bg__light-blue">
                     <div class="cards--content">
-                        <span class="iconify icon" data-icon="fa-solid:trophy" data-inline="false"></span>
+                        <span class="iconify icon" data-icon="fa-solid:trophy" data-inline="false" style = "color: #32708f"></span>
                         <span class="cards--nos">
                             1
                         </span>
@@ -209,7 +216,7 @@
 
                 <div class="dashboard--cards cards__bg__light-green">
                     <div class="cards--content">
-                        <span class="iconify icon" data-icon="gridicons-stats" data-inline="false"></span>
+                        <span class="iconify icon" data-icon="gridicons-stats" data-inline="false"  style="color: #3c763d"></span>
                         <span class="cards--nos">
                             44
                         </span>
@@ -347,8 +354,6 @@
                 cln.lastElementChild.firstElementChild.innerText = "Annonymous";
                 const replySection = document.querySelector(".reply--section");
                 replySection.appendChild(cln);
-                displayHandler();
-
             }
             textArea.value = "";
         });
